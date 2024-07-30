@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact Us</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<body>
+    <div class="header">
+        <img src="assests/schoollogo.jpg" alt="Logo" class="logo">
+        <div class="title"> <h1> ORCHIDS ENGLISH MEDIUM HIGH SCHOOL</h1></div>
+        <!-- <h3>The School of IIT Fundamentals</h3> -->
+    </div>
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home </a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="Admissions.html">Admissions</a></li>
+            <li><a href="uniform.html">Uniform</a></li>
+            <li><a href="contact us.html">contact us</a></li>
+            
+        </ul>
+
+        </ul>
+    </nav>
+    <div class="contact-container">
+        <h1>Contact Us</h1>
+        <form action="#" method="post" class="contact-form">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    <div class="footer">
+
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Address</h4>
+                <p>Pothuraju gandi,<br>Addanki,<br>Bapatla District,<br>Andhra Pradesh.</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Email: info@orchidsschool.com</p>
+                <p>Phone: 9876543210</p>
+            </div>
+
+            <div class="footer-section">
+                
+                <h4>Follow Us</h4>
+                <a href="#" class="fa fa-facebook" style="color: skyblue;">Facebook</a>
+                <a href="#" class="fa fa-twitter" style=" color: skyblue;">Twitter</a>
+                <a href="#" class="fa fa-instagram" style="color: pink;">Instagram</a>
+            </div>
+
+        </div>
+
+        <div     class="footer-bottom">
+            <p>&copy;  Orchids High School . All rights reserved.</p>
+        
+    
+
+    </div>
+</body>
+</html>
+<style>
+body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        margin: 10;
+        padding: 0;
+        background-size: cover;
+    }
+
+  
+
+.header {
+    display: flex;
+    flex: 5;
+    align-items: right;
+    background-color:  rgb(251, 250, 233);
+    padding: 10px;
+    white-space: 10px;
+}
+h1 {
+        text-align: right;
+        margin-bottom: 30px;
+
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    
+    input, textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    .header {
+    display: flex;
+    flex: 1;
+    align-items: right;
+    background-color:  rgb(251, 250, 233);
+    padding: 10px;
+    white-space: nowrap;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color:#333;
+    line-height: 80px;
+}
+
+nav ul{
+    float:right;
+    margin: 0;
+    margin-right: 1.9rem;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 18px;
+}
+nav ul li:hover{
+    background-color:pink;
+    color: lightskyblue;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+    .header {
+    display: flex;
+    flex: 1;
+    align-items: right;
+    background-color:  rgb(251, 250, 233);
+    padding: 10px;
+    white-space: nowrap;
+}
+
+.logo {
+    width: 130px;
+    height: 90px;
+    margin-right: 700px;
+    margin-top: auto;
+}
+
+h1 {
+    font-size: 25px;
+    color: #333;
+    
+    
+}
+
+
+.contact-container {
+    background: pink;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+}
+
+.contact-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form .form-group input:focus,
+.contact-form .form-group textarea:focus {
+    border-color: #6abdd9;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #222;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.contact-form button:hover {
+    background-color: white;
+    color:black;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-section h4 {
+    margin-bottom: 5px;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    background-color: #222;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+</style>
